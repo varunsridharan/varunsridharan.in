@@ -1,0 +1,29 @@
+baseURL = "https://varunsridharan.in/"
+languageCode = "en-us"
+title = "My Portfolio Website"
+theme = "hugo-lodi-theme"
+publishDir = "docs"
+
+[params]
+    theme_color = "#574CDD"
+    description = "Varun Sridharan - About"
+    description_photo = "portfolio.jpg"
+    favicon = "portfolio.png"
+    logo = "logo.png"
+    email = "varunsridharan23@gmail.com"
+    facebook = "varunsridharan2"
+    twitter = "varunsridharan2"
+    linkedin = "https://www.linkedin.com/in/varunsridharan23/"
+    github = "varunsridharan"
+
+[params.nav]
+    enable = false
+
+[params.hero]
+    enable = true
+    avatar = "portfolio.jpg"
+    subtitle = "Hi! I'm Varun Sridharan, a WordPress Developer."
+    hero_right = ["## About Me","Learning many things of my own made me interested in Technical side than academics.","I have completed Advanced Diploma in the following areas are Computer Hardware, Networking, Laptop Hardware, Cellphone Hardware & Software, Web Designing, Web Development, Editing Softwares & Server Administration.","---","I love Open Source 🙂 , love to work in WordPress and Interested in developing plugins for WooCommerce, WordPress, BuddyPress .etc","Learning Many Things On My Own Made And Practical Thinking Made Me Very Powerful and Interested in Technical side than Academics","## WordPress Origin Story ","I first use core php to develop any application or website. in 2004 i came to know about wordpress and started to use wordpress for the first time. but it was not good at that time. so i again switched back to core php and in 2007 i again started using wordpress… i really love wordpress now 🙂"]
+
+[params.footer]
+    enable = false
